@@ -28,7 +28,7 @@ export class AppComponent implements OnInit {
     this.service.getWeather(cityName).subscribe(
        {
        next: response => this.weatherData =response,    
-       error: (error)=> {this.errorMessage = error.error.message
+       error: (error)=> {this.errorMessage = error.message
        console.log(error)}
        }
       )
