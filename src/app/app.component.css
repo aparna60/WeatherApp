@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Soft pink/coral gradient */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Vibrant card background */
+.weather-card {
+  max-width: 900px;
+  width: 100%;
+  /* background: #0a3442;  */
+background: #EEA47F;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: #4d0202;
+}
+
+/* Temperature text - neon accent */
+.temp {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #720e0e; /* Coral pink */
+  text-shadow: 0 0 10px rgba(255, 107, 107, 0.3);
+}
+
+/* Labels and values */
+.label {
+  font-weight: bold;
+  color: #054452; /* Bright cyan */
+}
+
+.value {
+  color: #f7f1e3; /* Cream */
+  font-weight: 500;
+}
+
+/* Search box */
+.search-box {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.weather-icon {
+  color: #feca57; /* Vibrant yellow */
+  filter: drop-shadow(0 0 5px rgba(254, 202, 87, 0.4));
+}
+
+/* Divider line */
+.divider {
+  border-left: 1px solid #576574; /* Dark gray-blue */
+}
